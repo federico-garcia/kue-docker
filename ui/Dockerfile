@@ -12,4 +12,4 @@ ADD . /app
 
 EXPOSE 3000
 
-CMD ["pm2", "--no-daemon", "start", "index.js", "--watch", ""]
+CMD ["pm2", "--no-daemon", "start", "index.js", "--watch"]
