@@ -1,0 +1,15 @@
+{
+  "name": "Kue.UI",
+  "version": "1.0.0",
+  "description": "Kue Dashboard",
+  "main": "index.js",
+  "keywords": [
+    "kue",
+    "dashboard"
+  ],
+  "author": "Federico V Garcia <federico.v.garcia@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "kue": "^0.11.1"
+  }
+}
