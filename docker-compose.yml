@@ -6,6 +6,12 @@ services:
      - ./producer:/app
     depends_on:
      - redis
+  worker:
+    build: worker
+    volumes:
+     - ./worker:/app
+    depends_on:
+     - redis
   web:
     build: ui
     volumes:
