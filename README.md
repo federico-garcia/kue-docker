@@ -12,7 +12,7 @@ Clone this repo and run this command to start the application:
 
 The kue dashboard will be running at [http://localhost:3000](http://localhost:3000).
 
-![dashboard](kue-dashboard.jpg)
+![dashboard](kue-dashboard.png)
 
 The way the project is innitally set-up, the number o jobs in the queue will contnue growing since the worker is not able to keep pace with the rate at which jobs are created.
 
