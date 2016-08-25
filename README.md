@@ -30,3 +30,6 @@ You can stop and remove all containers
 
     $ docker-compose down
 
+If you have any questions or run into any problems, please create an issue!
+
+That's all!
