@@ -4,7 +4,9 @@
   "description": "Kue worker",
   "main": "worker.js",
   "scripts": {
-    "test": ""
+    "test": "",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "kue",
@@ -13,6 +15,8 @@
   "author": "Federico V Garcia <federico.v.garcia@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "kue": "^0.11.1"
-  }
+    "kue": "^0.11.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
